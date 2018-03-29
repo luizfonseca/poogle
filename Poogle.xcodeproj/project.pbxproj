@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE268E98206D35920054F6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268E97206D35920054F6B3 /* AppDelegate.swift */; };
+		FE268E9A206D35920054F6B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268E99206D35920054F6B3 /* ViewController.swift */; };
+		FE268E9C206D35920054F6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE268E9B206D35920054F6B3 /* Assets.xcassets */; };
+		FE268E9F206D35920054F6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE268E9D206D35920054F6B3 /* Main.storyboard */; };
+		FE268EAA206D35920054F6B3 /* PoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268EA9206D35920054F6B3 /* PoogleTests.swift */; };
+		FE268EB5206D35920054F6B3 /* PoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE268EB4206D35920054F6B3 /* PoogleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE268EA6206D35920054F6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE268E8C206D35920054F6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE268E93206D35920054F6B3;
+			remoteInfo = Poogle;
+		};
+		FE268EB1206D35920054F6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE268E8C206D35920054F6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE268E93206D35920054F6B3;
+			remoteInfo = Poogle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE268E94206D35920054F6B3 /* Poogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE268E97206D35920054F6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE268E99206D35920054F6B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE268E9B206D35920054F6B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE268E9E206D35920054F6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE268EA0206D35920054F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE268EA5206D35920054F6B3 /* PoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE268EA9206D35920054F6B3 /* PoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoogleTests.swift; sourceTree = "<group>"; };
+		FE268EAB206D35920054F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE268EB0206D35920054F6B3 /* PoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE268EB4206D35920054F6B3 /* PoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoogleUITests.swift; sourceTree = "<group>"; };
+		FE268EB6206D35920054F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE268E91206D35920054F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268EA2206D35920054F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268EAD206D35920054F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE268E8B206D35920054F6B3 = {
+			isa = PBXGroup;
+			children = (
+				FE268E96206D35920054F6B3 /* Poogle */,
+				FE268EA8206D35920054F6B3 /* PoogleTests */,
+				FE268EB3206D35920054F6B3 /* PoogleUITests */,
+				FE268E95206D35920054F6B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE268E95206D35920054F6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE268E94206D35920054F6B3 /* Poogle.app */,
+				FE268EA5206D35920054F6B3 /* PoogleTests.xctest */,
+				FE268EB0206D35920054F6B3 /* PoogleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE268E96206D35920054F6B3 /* Poogle */ = {
+			isa = PBXGroup;
+			children = (
+				FE268E97206D35920054F6B3 /* AppDelegate.swift */,
+				FE268E99206D35920054F6B3 /* ViewController.swift */,
+				FE268E9B206D35920054F6B3 /* Assets.xcassets */,
+				FE268E9D206D35920054F6B3 /* Main.storyboard */,
+				FE268EA0206D35920054F6B3 /* Info.plist */,
+			);
+			path = Poogle;
+			sourceTree = "<group>";
+		};
+		FE268EA8206D35920054F6B3 /* PoogleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE268EA9206D35920054F6B3 /* PoogleTests.swift */,
+				FE268EAB206D35920054F6B3 /* Info.plist */,
+			);
+			path = PoogleTests;
+			sourceTree = "<group>";
+		};
+		FE268EB3206D35920054F6B3 /* PoogleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE268EB4206D35920054F6B3 /* PoogleUITests.swift */,
+				FE268EB6206D35920054F6B3 /* Info.plist */,
+			);
+			path = PoogleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE268E93206D35920054F6B3 /* Poogle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE268EB9206D35920054F6B3 /* Build configuration list for PBXNativeTarget "Poogle" */;
+			buildPhases = (
+				FE268E90206D35920054F6B3 /* Sources */,
+				FE268E91206D35920054F6B3 /* Frameworks */,
+				FE268E92206D35920054F6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poogle;
+			productName = Poogle;
+			productReference = FE268E94206D35920054F6B3 /* Poogle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE268EA4206D35920054F6B3 /* PoogleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE268EBC206D35920054F6B3 /* Build configuration list for PBXNativeTarget "PoogleTests" */;
+			buildPhases = (
+				FE268EA1206D35920054F6B3 /* Sources */,
+				FE268EA2206D35920054F6B3 /* Frameworks */,
+				FE268EA3206D35920054F6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE268EA7206D35920054F6B3 /* PBXTargetDependency */,
+			);
+			name = PoogleTests;
+			productName = PoogleTests;
+			productReference = FE268EA5206D35920054F6B3 /* PoogleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE268EAF206D35920054F6B3 /* PoogleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE268EBF206D35920054F6B3 /* Build configuration list for PBXNativeTarget "PoogleUITests" */;
+			buildPhases = (
+				FE268EAC206D35920054F6B3 /* Sources */,
+				FE268EAD206D35920054F6B3 /* Frameworks */,
+				FE268EAE206D35920054F6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE268EB2206D35920054F6B3 /* PBXTargetDependency */,
+			);
+			name = PoogleUITests;
+			productName = PoogleUITests;
+			productReference = FE268EB0206D35920054F6B3 /* PoogleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE268E8C206D35920054F6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luiz Fonseca";
+				TargetAttributes = {
+					FE268E93206D35920054F6B3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FE268EA4206D35920054F6B3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE268E93206D35920054F6B3;
+					};
+					FE268EAF206D35920054F6B3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE268E93206D35920054F6B3;
+					};
+				};
+			};
+			buildConfigurationList = FE268E8F206D35920054F6B3 /* Build configuration list for PBXProject "Poogle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE268E8B206D35920054F6B3;
+			productRefGroup = FE268E95206D35920054F6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE268E93206D35920054F6B3 /* Poogle */,
+				FE268EA4206D35920054F6B3 /* PoogleTests */,
+				FE268EAF206D35920054F6B3 /* PoogleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE268E92206D35920054F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE268E9C206D35920054F6B3 /* Assets.xcassets in Resources */,
+				FE268E9F206D35920054F6B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268EA3206D35920054F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268EAE206D35920054F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE268E90206D35920054F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE268E9A206D35920054F6B3 /* ViewController.swift in Sources */,
+				FE268E98206D35920054F6B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268EA1206D35920054F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE268EAA206D35920054F6B3 /* PoogleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE268EAC206D35920054F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE268EB5206D35920054F6B3 /* PoogleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE268EA7206D35920054F6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE268E93206D35920054F6B3 /* Poogle */;
+			targetProxy = FE268EA6206D35920054F6B3 /* PBXContainerItemProxy */;
+		};
+		FE268EB2206D35920054F6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE268E93206D35920054F6B3 /* Poogle */;
+			targetProxy = FE268EB1206D35920054F6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE268E9D206D35920054F6B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE268E9E206D35920054F6B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE268EB7206D35920054F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE268EB8206D35920054F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FE268EBA206D35920054F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Poogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factory9.Poogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE268EBB206D35920054F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Poogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factory9.Poogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FE268EBD206D35920054F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factory9.PoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poogle.app/Contents/MacOS/Poogle";
+			};
+			name = Debug;
+		};
+		FE268EBE206D35920054F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factory9.PoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poogle.app/Contents/MacOS/Poogle";
+			};
+			name = Release;
+		};
+		FE268EC0206D35920054F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factory9.PoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Poogle;
+			};
+			name = Debug;
+		};
+		FE268EC1206D35920054F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factory9.PoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Poogle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE268E8F206D35920054F6B3 /* Build configuration list for PBXProject "Poogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE268EB7206D35920054F6B3 /* Debug */,
+				FE268EB8206D35920054F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE268EB9206D35920054F6B3 /* Build configuration list for PBXNativeTarget "Poogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE268EBA206D35920054F6B3 /* Debug */,
+				FE268EBB206D35920054F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE268EBC206D35920054F6B3 /* Build configuration list for PBXNativeTarget "PoogleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE268EBD206D35920054F6B3 /* Debug */,
+				FE268EBE206D35920054F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE268EBF206D35920054F6B3 /* Build configuration list for PBXNativeTarget "PoogleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE268EC0206D35920054F6B3 /* Debug */,
+				FE268EC1206D35920054F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE268E8C206D35920054F6B3 /* Project object */;
+}
